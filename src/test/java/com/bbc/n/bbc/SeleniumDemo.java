@@ -41,6 +41,7 @@ public class SeleniumDemo {
        Thread.sleep(2);  
        WebElement searchbar = driver.findElement(By.xpath(".//*[@id='kw']"));  
         searchbar.sendKeys("t");
+        System.out.println("I love you");
 		   
 	  
 	  }
